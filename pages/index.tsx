@@ -31,7 +31,7 @@ export default function Home() {
 	useEffect(() => {
 		async function getAndSetDvcFiles() {
 			if (!repo) {
-				// setDvcFiles([]);
+				setDvcFiles([]);
 				return;
 			}
 
